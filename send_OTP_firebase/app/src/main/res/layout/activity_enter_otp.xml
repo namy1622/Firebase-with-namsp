@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".EnterOtpActivity">
+
+    <EditText
+        android:id="@+id/edt_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP code"
+        android:textSize="24sp"
+        android:textColor="#A00303"
+        />
+
+    <Button
+        android:id="@+id/btn_send_otp_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send OTP code"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#5C44FFE9"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I didn't rcrive otp code"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_send_again"
+            android:layout_marginLeft="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send again"/>
+
+    </LinearLayout>
+
+</LinearLayout>

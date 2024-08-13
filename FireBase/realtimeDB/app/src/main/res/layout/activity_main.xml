@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:layout_gravity="right"
+        android:id="@+id/btn_to_activity"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Activity Map"
+        android:textSize="20sp"
+        />
+    <Button
+
+        android:layout_gravity="right"
+        android:id="@+id/btn_to_activity_list"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Activity List"
+        android:textSize="20sp"
+        />
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_push"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="push data"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete data"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get data"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_get"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="get data"
+        android:textSize="20sp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+
+        >
+
+        <Button
+
+            android:id="@+id/btn_update"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update data"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

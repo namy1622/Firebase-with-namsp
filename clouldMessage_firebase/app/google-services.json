@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "179365819493",
+    "project_id": "pushnotification-caead",
+    "storage_bucket": "pushnotification-caead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179365819493:android:bb531e4aa08cda7015c28c",
+        "android_client_info": {
+          "package_name": "com.example.pushnotification_fb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXyxf5zqnRBHPAFstxAecmfU1CrBw1oN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

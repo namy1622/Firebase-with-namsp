@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107105835602",
+    "project_id": "sendotp-5a82f",
+    "storage_bucket": "sendotp-5a82f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107105835602:android:4364cdf2add043862b5d8b",
+        "android_client_info": {
+          "package_name": "com.example.sendotp_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBgYd5tGXxWeehjVRdUhPiXpluITg0Dg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

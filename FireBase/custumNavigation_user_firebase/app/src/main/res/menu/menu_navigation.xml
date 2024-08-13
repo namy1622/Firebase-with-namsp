@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"
+            />
+        <item
+            android:id="@+id/nav_favorite"
+            android:title="@string/nav_favorite"
+            android:icon="@drawable/baseline_favorite_24"
+            />
+        <item
+            android:id="@+id/nav_history"
+            android:title="@string/nav_history"
+            android:icon="@drawable/ic_history"
+            />
+    </group>
+
+    <item
+        android:title="@string/nav_account"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_proflie"
+                android:title="@string/nav_profile"
+                android:icon="@drawable/proflie_ic"
+                />
+            <item
+                android:id="@+id/nav_change_password"
+                android:title="@string/nav_change_password"
+                android:icon="@drawable/ic_change_pass"
+                />
+
+            <item
+                android:id="@+id/nav_signout"
+                android:title="@string/nav_signout"
+                android:icon="@drawable/ic_sign_out"
+                />
+        </menu>
+    </item>
+
+</menu>

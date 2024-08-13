@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "925657955344",
+    "project_id": "manageruser-f3202",
+    "storage_bucket": "manageruser-f3202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925657955344:android:3a11857837103f28afde95",
+        "android_client_info": {
+          "package_name": "com.example.custumnavigation_toolbar_user_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Nf2FGEujwQ_1SdXeHTr4n4-rUyghlvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
